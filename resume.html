@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-bar .w3-button {
+  padding: 16px;
+} 
+</style>
+<body class="w3-light-grey">
+
+
+  <div class="w3-top">
+  <div class="w3-bar w3-black w3-card" id="myNavbar">
+    <a href="home.html" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="resume.html" class="w3-bar-item w3-button">ABOUT ME</a>
+      <a href="https://github.com/nidhigupta09/" class="w3-bar-item w3-button"><i class="fa fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/nidhi-gupta-1b0505145/" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i> LinkedIn</a>
+      
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="https://github.com/nidhigupta09/" onclick="w3_close()" class="w3-bar-item w3-button">GitHub</a>
+  <a href="https://www.linkedin.com/in/nidhi-gupta-1b0505145/" onclick="w3_close()" class="w3-bar-item w3-button">LinkedIn</a>
+  <
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="img/pic.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 >Nidhi Gupta</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Career Objective</b></p>
+          <p class="w3-text-black">To work in a competitive environment and utilize my skills to the best.</p>
+          <hr>
+          
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b></p>
+          <h4>Language:</h4>
+          <p class="w3-text-black">C, C++, Python</p>
+          
+          
+          <h4 >Web Designing:</h4>
+          <p class="w3-text-black">HTML, CSS, Bootstrap4, JS, Reactjs, Nodejs</p>
+
+          <h4>Database Knowledge</h4>
+          <p class="w3-text-black">Mysql, Oracle</p>
+          
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Languages</b></p>
+          <p class="w3-text-black">English</p>
+          
+          <p class="w3-text-black">Hindi</p>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-circle fa-fw w3-margin-right w3-text-indigo"></i>Extra/Co-Curricular Activities</b></p>
+          <p class="w3-text-black">Coordinator in AKTU Cultural Fest in 2020.</p>
+          <p class="w3-text-black">Coordinator of Cultural Club.</p>
+          <p class="w3-text-black">Coordinator of college fest 2019.</p>
+          <p class="w3-text-black">Treasurer of Spritual and Yoga Club.</p>
+          <p class="w3-text-black">Volunteer in TedX in 2019.</p>
+
+          <br>
+
+        </div>
+      </div><br><p><a href="home.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Go to Back</a></p><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Internship</h2>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>GNIX Technologies</b></h5>
+          <h5><b>Front End Developer</b></h5>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2020 - <span class="w3-tag w3-indigo w3-round">Current</span></h6></div>
+
+          <div class="w3-container">
+          <h5 class="w3-opacity"><b>Coursera</b></h5>
+          <h5><b>Machine Learning</b></h5>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2020 - <span class="w3-tag w3-indigo w3-round">Current</span></h6>
+          
+          <hr>
+        </div>
+        
+
+
+
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>B.Tech</b></h5>
+          <p>ABES Engineering College</p>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017-2021 </h6>
+          
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Intermediate</b></h5>
+          <p>B S Y Saidpur</p>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015</h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>High School</b></h5>
+          <p>B S Y Saidpur</p>
+          <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013</h6>
+          <br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Training & Certification</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"></h5>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Machine Learning, IIT Delhi</h4>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Machine Learning, NIT Jaipur</h4>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Web Development, Internshala</h4>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Web Development with React, Coursera</h4>
+        </div>
+
+          <div>
+          
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Interpersonal Skills</h2>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Teamwork Leadership</h4></div>
+
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Achievements</h2>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Got selected in internal Smart India Hackathon in 2020.</h4>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Got 1st Prize in Entrepreneurship Awareness Camp. Got 2nd Prize in DLD Exhibition.</h4>
+          <h4 class="w3-text-black w3-padding-14"><i class="fa fa-angle-right"></i> Got 2nd Prize in DLD Exhibition.</h4>
+
+
+          <hr>
+        </div>
+        
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-black w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <div class="justify-content-center">
+  <a href="resume.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/profile.php?id=100007121797735"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://github.com/nidhigupta09/"><i class="fa fa-github w3-hover-opacity"></i></a>
+
+    <a href="https://in.pinterest.com/nidhigzp2015/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/NidhiGu75216020"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/nidhi-gupta-1b0505145/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p>Powered by Nidhi Gupta</p>
+</div>
+</footer>
+
+</body>
+</html>
